@@ -1,3 +1,7 @@
+virtualenv env
+
+
+pip install django
 
 django-admin startproject drfecommerce
 
@@ -7,3 +11,13 @@ print(get_random_secret_key())
 
 
 pip install python-dotenv
+
+pip install djangorestframework
+
+pip install pytest
+
+pip install pytest-django
+
+pip install django-mptt
+ 
+pip install drf-spectacular
