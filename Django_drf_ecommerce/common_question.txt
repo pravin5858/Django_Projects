@@ -1,0 +1,4 @@
+why flack8 use
+why black is use
+why pytest is use
+why drf-spectacular is use

@@ -21,3 +21,5 @@ pip install pytest-django
 pip install django-mptt
  
 pip install drf-spectacular
+
+python manage.py spectacular --file schema.py
