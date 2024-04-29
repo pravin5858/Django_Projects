@@ -6,3 +6,6 @@ env/
 .coverage
 .vscode
 schema.yml
+common_question.txt
+.coverage
+htmlcov/

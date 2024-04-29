@@ -23,3 +23,23 @@ pip install django-mptt
 pip install drf-spectacular
 
 python manage.py spectacular --file schema.py
+
+pip install coverage
+
+coverage run -m pytest
+
+coverage html
+
+pip install  pytest-cov
+
+pytest --cov
+
+pip install pytest-factoryboy
+
+
+
+
+last opend file 
+test_models
+factories
+conftest

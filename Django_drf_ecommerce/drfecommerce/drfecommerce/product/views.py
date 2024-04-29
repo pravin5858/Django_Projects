@@ -24,7 +24,7 @@ class BrandViewSet(viewsets.ViewSet):
     """
 
     queryset = Brand.objects.all()
-    print(queryset)
+    # print(queryset)
     @extend_schema(responses=BrandSerializer)
     def list(self, request):
         serializer = BrandSerializer(self.queryset, many=True)
@@ -36,7 +36,7 @@ class ProductViewSet(viewsets.ViewSet):
     """
 
     queryset = Product.objects.all()
-    print(queryset)
+    # print(queryset)
     @extend_schema(responses=ProductSerializer)
     def list(self, request):
         serializer = ProductSerializer(self.queryset, many=True)
